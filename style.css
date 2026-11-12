@@ -3,6 +3,19 @@ body {
   margin: 2rem;
 }
 
+#status {
+  margin-bottom: 1rem;
+}
+
+#status[hidden] {
+  display: none;
+}
+
+#status[data-state="error"] {
+  color: #b00020;
+  font-weight: 600;
+}
+
 ul {
   list-style: none;
   padding: 0;
